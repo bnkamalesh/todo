@@ -1,0 +1,319 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Helvetica Neue, Helvetica, Arial;
+	font-size: 12px;
+	line-height: 22px;
+	background: #eee;
+	background-attachment: fixed;
+	color: #333;
+}
+
+#wrap{
+	width: 844px;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	border-radius: 5px;
+}
+
+#header{
+	background: #fff;
+	padding: 15px 30px;
+	overflow: hidden;
+	
+	box-shadow: 0 0 10px #bbb;
+}
+
+#header .user_info {
+	float: right;
+	margin: 0;
+}
+#header a.logout{
+	background: #666;
+	font-size: 11px;
+	padding: 2px 5px;
+}
+
+#header a.logout:hover{
+	background: #444;
+}
+
+#header .today{
+	font-size: 18px;
+}
+
+form label {
+	display: block;
+}
+
+input {
+	padding: 8px;
+	font-size: 16px;
+	width: 250px;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+}
+
+.button {
+	padding: 8px;
+	background-color: #0F92D6;
+	width: auto !important;
+	border: 0;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.button:hover {
+	background: #000;
+}
+
+a.button {
+	text-decoration: none;
+}
+
+#result {
+	color: #41C603;
+}
+
+
+
+#login{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#register{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#user-availability{
+	font-size: 12px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+.install{
+	width: 40%;
+	margin: 20px auto 0 auto;
+	background: #fff;
+	padding: 15px;
+	
+	box-shadow: 0 0 10px #bbb;
+}
+
+.install input {
+	width: 90%;
+}
+
+div.home_container{
+	margin: 150px 0 0 0;
+}
+
+div.home_box{
+	background-color: #fff;
+	padding: 30px 50px;
+	margin-right: 15px;
+	font-size: 25px;
+	overflow: hidden;
+	float: left;
+	color: #0F92D6;
+	
+	box-shadow: 0 0 10px #bbb;
+}
+
+div.home_box:hover{
+	background-color: #0F92D6;
+	color: #fff;
+	cursor: pointer;
+}
+
+span.home_boxText:hover{
+	cursor: pointer;
+}
+
+
+div.event_container{
+	width: 100%;
+	margin-top: 100px;
+}
+
+div.event{
+	width: 250px;
+	height: 150px;
+	padding: 10px;
+	float: left;
+	margin: 0 10px 10px 0;
+
+	background-color: #0F92D6;
+	color: #fff;
+	position: relative;
+}
+
+.event_container .done {
+	background: #72BF33;
+}
+
+div.event:hover{
+	box-shadow: 0px 1px 10px #bbb;
+}
+
+a.event_drop{
+	float: right;
+	color: #fff;
+	position: absolute;
+	right: 8px;
+	top: 3px;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+a.event_drop:hover{
+	color: #555;
+}
+
+.event .options {
+	position: absolute;
+	width: 93%;
+	bottom: 0px;
+}
+
+.event_change_status{
+	float: right;
+	color: #fff;
+}
+
+.event_change_status:hover{
+	color: #555;
+}
+
+#event_add  {
+	margin-top: 30px;
+}
+
+#event_add label {
+	display: inline;
+	margin-left: 10px;
+}
+
+#event_add input {
+	width: 30%;
+}
+
+
+.event_description{
+	height: 80px;
+	overflow: hidden;
+}
+
+span.event_status{
+	float: left;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+span.event{
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin: 30px 0px 0px 35px;
+	font-weight: bold;
+}
+
+
+.credit {
+	margin-top: 30px;
+	font-size: 11px;
+}
+
+span.message{
+	display: block;
+	margin: 20px 0px 0px 0px;
+}
+
+
+a{
+	color: #0F92D6;
+}
+
+h1,h2,h3 {
+	margin: 0 0 10px 0;
+	font-weight: normal;
+}
+
+.clear{
+	clear: both;
+}
+
+
+/* 
+	Below CSS is for jqdialog.min.js library, used for notifications and alerts.
+	Downloaded and installed from https://github.com/knadh/jqdialog 
+*/
+
+
+#jqDialog_box {
+	background: #f5f5f5;
+	position: absolute;
+	width: 450px;
+	font-family: Arial;
+	
+	border-width: 1px 3px 3px 1px;
+	border-style: solid;
+	border-color: #ccc;
+
+	border-radius: 6px;
+	
+	box-shadow: 0 0 10px #bbb;
+}
+
+#jqDialog_content {
+	margin: 10px;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	overflow: hidden;
+}
+
+#jqDialog_options {
+	margin: 10px;
+	text-align: center;
+}
+
+#jqDialog_options button {
+	font-family: Arial;
+	margin-right: 5px;
+	background: #000;
+	border: 0px;
+
+	font-size: 1.5em;
+	color: #fff;
+	width: auto;
+	
+	cursor: pointer;
+	
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#jqDialog_input {
+	padding: 4px;
+	width: 250px;
+}
+
+#jqDialog_close {
+	background: none;
+	border: none;
+	float: right;
+	font-weight: bold;
+	font-size: 10px;
+	color: #ff0000;
+	cursor: pointer;
+}
