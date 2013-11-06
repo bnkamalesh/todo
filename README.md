@@ -1,13 +1,11 @@
-# Simple To-Do list demo
+# Simple To-Do list
 ### A prototype web app made for CodeChef by Kamaleshwar, October 2011
-
-### Live demo - http://kamaleshwar.com/todo
 
 
 # Installation
 - Upload all files to the webserver
 - Create a database (eg: todo)
-- Go to http://domain.com/todo/install.php to initiate the installation process
+- Go to http://your_website_address/todo/install.php to initiate the installation process
 
 
 # Features
